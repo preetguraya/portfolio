@@ -1,3 +1,11 @@
+function showCaption(element){
+    element.firstElementChild.style.display = "block";
+}
+
+function hideCaption(element){
+    element.firstElementChild.style.display = "none";
+}
+
 const skillset= document.getElementsByClassName("skillset")
 for(i=0;i<skillset.length;i++){
     const skills = skillset[i].getElementsByTagName("div");
